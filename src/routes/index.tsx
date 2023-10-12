@@ -1,15 +1,9 @@
 import React from 'react';
-import InitialComponent from '../frontend/components/InitialComponent';
-import OtherComponent from '../frontend/components/OtherComponent';
-
-const OTHER_COMPONENT = {
-	path: '/other-component',
-	element: <OtherComponent />
-};
+import List from '../frontend/components/List';
 
 const INITIAL_COMPONENT = {
 	path: '/',
-	element: <InitialComponent />,
+	element: <List />,
 };
 
-export default [ INITIAL_COMPONENT, OTHER_COMPONENT ];
+export default [ INITIAL_COMPONENT ];

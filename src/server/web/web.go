@@ -43,7 +43,7 @@ func RegisterHandlers(e *echo.Echo, paths []string) {
                                 <meta name="theme-color" content="#000000">
                                 <!-- ${manifestJson} -->
                                 <link href="assets/frontend.css" rel="stylesheet" type="text/css"></link>
-                                
+                                <link href="assets/vendors.css" rel="stylesheet" type="text/css"></link> 
                                 <title>App</title>
                             </head>
                             <body>
