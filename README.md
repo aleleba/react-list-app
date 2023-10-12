@@ -1,26 +1,15 @@
-# Create React SSR
+# Test List App
 
-This project aims to have a starter kit for creating a new React app with Server Side Rendering with a backend in go and tools that generally go along with it.
-
-It is not a project like create-react-app, create-react-app is used as a starter kit that handles all your scripts underneath, this is a project for developers who want more control over their application.
-
-Tech(Library or Framework) | Version |
---- | --- |
-React (Render Library) | 18.2.0
-Redux (Global State Management) | 4.2.1
-React Router DOM (Routing) | 6.16.0
-Jest (Testing) | 29.7.0
-Cypress (E2E Testing) | 13.3.0
-Typescript | 5.2.2
+This project is an Example of a List of Tasks App.
 
 ## Setup
-To create a new project run in the terminal:
+To start the project you need to clone the repo:
 ```
-npx @aleleba/create-react-go-ssr app-name
+git clone git@github.com:aleleba/test-list-app.git
 ```
 Then run:
 ```
-cd app-name
+cd test-list-app
 ```
 You will need to create a new .env file at the root of the project for global config.
 This is an exaple of config.

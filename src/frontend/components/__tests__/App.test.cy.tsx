@@ -11,6 +11,6 @@ describe('Testing Card Component', () => {
 		);
 	});
 	it('Show Text', () => {
-		cy.get('p').contains('Edit src/frontend/InitialComponent.jsx and save to reload.');
+		cy.get('div').contains('List App');
 	});
 });

@@ -1,14 +1,14 @@
 import { combineReducers } from 'redux';
-import testReducer from './testReducer';
-import { IChangeHelloPayload } from '../actions/testAction';
+import listReducer from './listReducer';
+import { TList } from '../actions/ListAction';
 
 export interface IInitialState {
-	testReducer?: IChangeHelloPayload | undefined
+	listReducer?: TList | undefined
 }
 
 const rootReducer = combineReducers({
 	// Here comes the reducers
-	testReducer
+	listReducer
 });
 
 export default rootReducer;
