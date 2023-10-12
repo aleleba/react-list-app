@@ -1,0 +1,13 @@
+#node_modules ignore
+node_modules
+#.envs
+.env
+#builds
+build
+src/server/main
+src/server/react-server
+src/server/web/dist
+src/server/web/conversion
+src/server/web/getstate
+#cypress
+cypress/videos
