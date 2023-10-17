@@ -1,6 +1,6 @@
 {
   "name": "test-list-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Starter Kit of server side render of react with backend in go",
   "scripts": {
     "start": "cd build/server && ./react-server",
